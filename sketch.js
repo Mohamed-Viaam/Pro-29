@@ -66,6 +66,10 @@ function draw(){
     background(backImg);
     Engine.update(engine);
 
+    fill("white")
+    textSize(20)
+    text("Drag the Bird and Release it, to launch it towards the block", 300, 50);
+
     ground.display();
 
     stand1.display();
